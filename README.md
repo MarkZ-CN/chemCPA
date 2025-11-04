@@ -16,6 +16,10 @@ Code for this previous version can be found under the `v1.0` git tag.
 - `notebooks`: Example analysis notebooks.
 - `preprocessing`: Notebooks for processing the data. For each dataset there is one notebook that loads the raw data.
 - `tests`: A few very basic tests.
+- `docs/`: Documentation on the framework and loss design
+  - [Framework Quick Reference](docs/FRAMEWORK_SUMMARY.md): Quick overview in both Chinese and English
+  - [Detailed Framework & Loss Design](docs/FRAMEWORK_AND_LOSS_DESIGN.md): Comprehensive Chinese documentation
+  - [Loss Function Visualization](docs/LOSS_VISUALIZATION.md): Visual diagrams of training flow and loss components
 
 All experiments where run through [seml](https://github.com/TUM-DAML/seml).
 The entry function is `ExperimentWrapper.__init__` in `chemCPA/seml_sweep_icb.py`.
